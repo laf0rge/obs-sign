@@ -47,7 +47,7 @@ uid_t uid;
 static const char *const hashname[] = {"SHA1", "SHA256"};
 static const int  hashlen[] = {20, 32};
 
-int hashalgo = HASH_SHA1;
+int hashalgo = HASH_SHA256;
 static const char *timearg;
 static char *privkey;
 static int privkey_read;
